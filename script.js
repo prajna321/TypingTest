@@ -29,7 +29,7 @@ userInput.addEventListener("input", () => {
     let userInputChars = userInput.value.split("");
 
     quoteChars.forEach((char, index) => {
-        if (char.innerTest == userInputChars[index]) {
+        if (char.innerText == userInputChars[index]) {
             char.classList.add("success");
         }
         else if (userInputChars[index] == null) {
